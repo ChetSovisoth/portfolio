@@ -30,36 +30,36 @@ export default class Main extends Component {
             path="/home"
             render={(props) => <Home {...props} theme={this.props.theme} />}
           />
-          <Route
+          {/* <Route
             path="/experience"
             exact
             render={(props) => (
               <Experience {...props} theme={this.props.theme} />
             )}
-          />
+          /> */}
           <Route
             path="/education"
             render={(props) => (
               <Education {...props} theme={this.props.theme} />
             )}
           />
-          <Route
+          {/* <Route
             path="/opensource"
             render={(props) => (
               <Opensource {...props} theme={this.props.theme} />
             )}
-          />
+          /> */}
           <Route
             path="/contact"
             render={(props) => <Contact {...props} theme={this.props.theme} />}
           />
 
-          {settings.isSplash && (
+          {/* {settings.isSplash && (
             <Route
               path="/splash"
               render={(props) => <Splash {...props} theme={this.props.theme} />}
             />
-          )}
+          )} */}
 
           <Route
             path="/projects"
