@@ -7,7 +7,7 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Sovisoth's Portfolio",
+  title: "Chet Sovisoth",
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
@@ -25,21 +25,12 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
+    "https://drive.google.com/file/d/1MfVP3Z4j1m_Gfd5gig54O6Cqrqv6K7jL/view?usp=sharing",
   // portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
   githubProfile: "https://github.com/ChetSovisoth",
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
-
   {
     name: "Github",
     link: "https://github.com/ChetSovisoth",
@@ -66,9 +57,8 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Build responsive website using React and Vue",
+        "⚡ Creating backend application in Laravel",
       ],
       softwareSkills: [
         {
@@ -102,9 +92,16 @@ const skills = {
         },
         {
           skillName: "VueJS",
-          fontAwesomeClassname: "simple-icons:code",
+          fontAwesomeClassname: "simple-icons:vuedotjs",
           style: {
             color: "#4FC08D",
+          },
+        },
+        {
+          skillName: "InertiaJS",
+          fontAwesomeClassname: "simple-icons:inertia",
+          style: {
+            color: "#9553E9",
           },
         },
         {
@@ -135,9 +132,8 @@ const skills = {
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Hosting and maintaining websites on virtual machine",
+        "⚡ DevOps technology like Docker and Kubernetes",
       ],
       softwareSkills: [
         {
