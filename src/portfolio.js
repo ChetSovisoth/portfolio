@@ -241,7 +241,7 @@ const degrees = {
       descriptions: [
         "⚡ I have learned basic software engineering subjects and concepts like DSA, DBMS, OS, OOAD, etc.",
         "⚡ Apart from this, I have complete courses and projects on Mobile Applications, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡  I was selected to undertake a thesis project reflecting a strong academic performance and consistent dedication throughout my studies.",
       ],
       website_link: "https://fe.rupp.edu.kh",
     },
