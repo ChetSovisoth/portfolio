@@ -11,6 +11,7 @@ import {
   projectsHeader,
   publicationsHeader,
   publications,
+  projects,
 } from "../../portfolio.js";
 import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
@@ -54,6 +55,13 @@ class Projects extends Component {
             return <GithubRepoCard repo={repo} theme={theme} />;
           })}
         </div>
+
+        <div className="repo-cards-div-main">
+          {projects.data.map((pub) => {
+            return <PublicationCard pub={pub} theme={theme} />;
+          })}
+        </div>
+
         <Button
           text={"More Projects"}
           className="project-button"
@@ -63,7 +71,7 @@ class Projects extends Component {
         />
 
         {/* Publications  */}
-        {publications.data.length > 0 ? (
+        {/* {publications.data.length > 0 ? (
           <div className="basic-projects">
             <Fade bottom duration={2000} distance="40px">
               <div className="publications-heading-div">
@@ -90,7 +98,7 @@ class Projects extends Component {
           {publications.data.map((pub) => {
             return <PublicationCard pub={pub} theme={theme} />;
           })}
-        </div>
+        </div> */}
 
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />

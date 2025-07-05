@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Chet Sovisoth",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A pragmatic builder who enjoys developing end-to-end solutions, with a focus on scalable backend systems and cloud infrastructure to solve real-world problems efficiently.",
   og: {
     title: "Chet Sovisoth Portfolio",
     type: "website",
@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "ChetSovisoth",
   nickname: "",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A pragmatic builder who enjoys developing end-to-end solutions, with a focus on scalable backend systems and cloud infrastructure to solve real-world problems efficiently.",
   resumeLink:
     "https://drive.google.com/file/d/1MfVP3Z4j1m_Gfd5gig54O6Cqrqv6K7jL/view?usp=sharing",
   // portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
@@ -436,7 +436,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of modern technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects make use of a wide variety of modern technology tools. My strongest experience lies in backend development and deploying applications via cloud infrastructure.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -472,13 +472,50 @@ const publications = {
   ],
 };
 
+const projects = {
+  data: [
+    {
+      id: "komsanhub",
+      name: "Cambodia Tourism Guide Web",
+      createdAt: "ReactJS · Bootstrap",
+      description:
+        "Users can explore destinations by category and region through a clean and user-friendly interface.",
+      url: "https://komsanhub.sovisoth.com/",
+    },
+    {
+      id: "mentorship",
+      name: "Mentorship",
+      createdAt: "Laravel · Bootstrap",
+      description:
+        "Designed to connect mentors and mentees for knowledge sharing and guidance.",
+      url: "https://github.com/ChetSovisoth/Y3-Project",
+    },
+    {
+      id: "attendance-tracking-system-qr",
+      name: "Attendance Tracking System With QR Code",
+      createdAt: "Laravel · Bootstrap · Docker",
+      description:
+        "Designed to help organizations track and manage employee attendance efficiently with QR code.",
+      url: "https://github.com/ChetSovisoth/Y4S1-Project",
+    },
+    {
+      id: "saas-attendance-tracking",
+      name: "Software as a Service Attendance Tracking System",
+      createdAt: "Laravel · VueJS · Paddle · Kubernetes",
+      description:
+        "A centralized platform for managing organizations, subscriptions, and deployments of the attendance system. It utilize Kubernetes for automatic deployment and auto-scaling.",
+      url: "https://attendin.xyz/",
+    },
+  ],
+};
+
 // Contact Page
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
     profile_image_path: "animated_ashutosh.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "You can contact me via email, and I’ll do my best to respond as soon as I can.",
   },
   blogSection: {
     title: "Blogs",
@@ -518,4 +555,5 @@ export {
   publicationsHeader,
   publications,
   contactPageData,
+  projects,
 };
