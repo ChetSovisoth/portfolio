@@ -7,6 +7,7 @@ import Experience from "../pages/experience/Experience";
 import Opensource from "../pages/opensource/Opensource";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
+import Scratch from "../pages/scratch/ScratchGame.js";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
 
@@ -29,6 +30,11 @@ export default class Main extends Component {
           <Route
             path="/home"
             render={(props) => <Home {...props} theme={this.props.theme} />}
+          />
+
+          <Route
+            path="/scratch"
+            render={(props) => <Scratch {...props} theme={this.props.theme} />}
           />
           {/* <Route
             path="/experience"
