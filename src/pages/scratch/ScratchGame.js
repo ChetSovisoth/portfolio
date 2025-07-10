@@ -8,8 +8,6 @@ import "./scratch.css";
 class Scratch extends Component {
   render() {
     const theme = this.props.theme;
-    const projectId = process.env.REACT_APP_SCRATCH_PROJECT_ID;
-    console.log(process.env.REACT_APP_SCRATCH_PROJECT_ID);
     return (
       <div>
         <Header theme={theme} />
