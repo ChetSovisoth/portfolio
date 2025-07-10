@@ -475,20 +475,12 @@ const publications = {
 const projects = {
   data: [
     {
-      id: "komsanhub",
-      name: "Cambodia Tourism Guide Web",
-      createdAt: "ReactJS · Bootstrap",
+      id: "saas-attendance-tracking",
+      name: "Software as a Service Attendance Tracking System",
+      createdAt: "Laravel · VueJS · Paddle · Kubernetes",
       description:
-        "Users can explore destinations by category and region through a clean and user-friendly interface.",
-      url: "https://komsanhub.sovisoth.com/",
-    },
-    {
-      id: "mentorship",
-      name: "Mentorship",
-      createdAt: "Laravel · Bootstrap",
-      description:
-        "Designed to connect mentors and mentees for knowledge sharing and guidance.",
-      url: "https://github.com/ChetSovisoth/Y3-Project",
+        "A centralized platform for managing organizations, subscriptions, and deployments of the attendance system. It utilize Kubernetes for automatic deployment and auto-scaling.",
+      url: "https://attendin.xyz/",
     },
     {
       id: "attendance-tracking-system-qr",
@@ -499,12 +491,27 @@ const projects = {
       url: "https://github.com/ChetSovisoth/Y4S1-Project",
     },
     {
-      id: "saas-attendance-tracking",
-      name: "Software as a Service Attendance Tracking System",
-      createdAt: "Laravel · VueJS · Paddle · Kubernetes",
+      id: "mentorship",
+      name: "Mentorship",
+      createdAt: "Laravel · Bootstrap",
       description:
-        "A centralized platform for managing organizations, subscriptions, and deployments of the attendance system. It utilize Kubernetes for automatic deployment and auto-scaling.",
-      url: "https://attendin.xyz/",
+        "Designed to connect mentors and mentees for knowledge sharing and guidance.",
+      url: "https://github.com/ChetSovisoth/Y3-Project",
+    },
+    {
+      id: "komsanhub",
+      name: "Cambodia Tourism Guide Web",
+      createdAt: "ReactJS · Bootstrap",
+      description:
+        "Users can explore destinations by category and region through a clean and user-friendly interface.",
+      url: "https://komsanhub.sovisoth.com/",
+    },
+    {
+      id: "scratch",
+      name: "Scratch Game",
+      createdAt: "Scratch",
+      description: "A small Scratch game developed during freshman year.",
+      url: "https://www.sovisoth.com/scratch",
     },
   ],
 };
