@@ -12,12 +12,7 @@ class ProjectDetail extends Component {
     const theme = this.props.theme;
     const { id } = this.props.match.params;
     const project = projects["data"].find((p) => p.id === id);
-    let projectImage;
-    try {
-      projectImage = require(`../../assets/images/${project.id}.png`);
-    } catch (err) {
-      projectImage = require("../../assets/images/default.png");
-    }
+    const projectImage = `/images/${project.id}.png`;
 
     if (!project) {
       return (
@@ -34,7 +29,13 @@ class ProjectDetail extends Component {
           <Fade left duration={2000} distance="40px">
             <div className="projects-heading-div">
               <div className="projects-heading-img-div">
-                <img src={projectImage} alt="Project" />
+                <img
+                  src={projectImage}
+                  alt={project.name}
+                  onError={(e) => {
+                    e.currentTarget.src = "/images/default.png";
+                  }}
+                />
               </div>
               <div className="projects-heading-text-div">
                 <h1
