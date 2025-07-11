@@ -475,36 +475,48 @@ const publications = {
 const projects = {
   data: [
     {
-      id: "komsanhub",
-      name: "Cambodia Tourism Guide Web",
-      createdAt: "ReactJS · Bootstrap",
+      id: "saas-attendance-tracking",
+      name: "Software as a Service Attendance Tracking System",
+      tech: "Laravel · VueJS · Paddle · Kubernetes",
+      created_at: "June, 2025",
       description:
-        "Users can explore destinations by category and region through a clean and user-friendly interface.",
-      url: "https://komsanhub.sovisoth.com/",
-    },
-    {
-      id: "mentorship",
-      name: "Mentorship",
-      createdAt: "Laravel · Bootstrap",
-      description:
-        "Designed to connect mentors and mentees for knowledge sharing and guidance.",
-      url: "https://github.com/ChetSovisoth/Y3-Project",
+        "A centralized platform for managing organizations, subscriptions, and deployments of the attendance system. It utilize Kubernetes for automatic deployment and auto-scaling.",
+      url: "https://attendin.xyz/",
     },
     {
       id: "attendance-tracking-system-qr",
       name: "Attendance Tracking System With QR Code",
-      createdAt: "Laravel · Bootstrap · Docker",
+      tech: "Laravel · Bootstrap · Docker",
+      created_at: "January, 2025",
       description:
         "Designed to help organizations track and manage employee attendance efficiently with QR code.",
       url: "https://github.com/ChetSovisoth/Y4S1-Project",
     },
     {
-      id: "saas-attendance-tracking",
-      name: "Software as a Service Attendance Tracking System",
-      createdAt: "Laravel · VueJS · Paddle · Kubernetes",
+      id: "mentorship",
+      name: "Mentorship",
+      tech: "Laravel · Bootstrap",
+      created_at: "June, 2024",
       description:
-        "A centralized platform for managing organizations, subscriptions, and deployments of the attendance system. It utilize Kubernetes for automatic deployment and auto-scaling.",
-      url: "https://attendin.xyz/",
+        "Designed to connect mentors and mentees for knowledge sharing and guidance.",
+      url: "https://github.com/ChetSovisoth/Y3-Project",
+    },
+    {
+      id: "komsanhub",
+      name: "Cambodia Tourism Guide Web",
+      tech: "ReactJS · Bootstrap",
+      created_at: "January, 2024",
+      description:
+        "Users can explore destinations by category and region through a clean and user-friendly interface.",
+      url: "https://komsanhub.sovisoth.com/",
+    },
+    {
+      id: "scratch",
+      name: "Scratch Game",
+      tech: "Scratch",
+      created_at: "June, 2022",
+      description: "A small Scratch game developed during freshman year.",
+      url: "https://www.sovisoth.com/scratch",
     },
   ],
 };

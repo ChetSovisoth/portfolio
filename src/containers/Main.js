@@ -3,13 +3,11 @@ import { Route, Switch, BrowserRouter } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
 import Splash from "../pages/splash/Splash";
 import Education from "../pages/education/EducationComponent";
-import Experience from "../pages/experience/Experience";
-import Opensource from "../pages/opensource/Opensource";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
-import Scratch from "../pages/scratch/ScratchGame.js";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
+import ProjectDetail from "../pages/projects/ProjectDetail.js";
 
 export default class Main extends Component {
   render() {
@@ -32,10 +30,6 @@ export default class Main extends Component {
             render={(props) => <Home {...props} theme={this.props.theme} />}
           />
 
-          <Route
-            path="/scratch"
-            render={(props) => <Scratch {...props} theme={this.props.theme} />}
-          />
           {/* <Route
             path="/experience"
             exact
@@ -47,6 +41,12 @@ export default class Main extends Component {
             path="/education"
             render={(props) => (
               <Education {...props} theme={this.props.theme} />
+            )}
+          />
+          <Route
+            path="/project/:id"
+            render={(props) => (
+              <ProjectDetail {...props} theme={this.props.theme} />
             )}
           />
           {/* <Route

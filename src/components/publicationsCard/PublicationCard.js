@@ -1,12 +1,17 @@
 import React from "react";
 import "./PublicationCard.css";
 import { Fade } from "react-reveal";
+import { useHistory } from "react-router-dom";
 
 export default function PublicationCard({ pub, theme }) {
-  function openPubinNewTab(url) {
-    var win = window.open(url, "_blank");
-    win.focus();
-  }
+  // function openPubinNewTab(url) {
+  //   var win = window.open(url, "_blank");
+  //   win.focus();
+  // }
+  const history = useHistory();
+  const handleClick = (id) => {
+    history.push(`/project/${id}`);
+  };
 
   return (
     <div
@@ -14,7 +19,7 @@ export default function PublicationCard({ pub, theme }) {
       style={{ backgroundColor: theme.highlight }}
     >
       <Fade bottom duration={2000} distance="40px">
-        <div key={pub.id} onClick={() => openPubinNewTab(pub.url)}>
+        <div key={pub.id} onClick={() => handleClick(pub.id)}>
           <div className="publication-name-div">
             <p className="publication-name" style={{ color: theme.text }}>
               {pub.name}
@@ -28,7 +33,7 @@ export default function PublicationCard({ pub, theme }) {
               className="publication-creation-date subTitle"
               style={{ color: theme.secondaryText }}
             >
-              Technology: {pub.createdAt.split("T")[0]}
+              Technology: {pub.tech.split("T")[0]}
             </p>
           </div>
           {/* <div className="repo-stats">

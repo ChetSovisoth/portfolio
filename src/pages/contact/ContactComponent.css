@@ -36,6 +36,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 30px;
 }
 
 .blog-heading-img-div {
@@ -125,6 +126,38 @@
   display: flex;
   justify-content: center;
   margin-top: 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.contact-label {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.contact-input {
+  margin-top: 0.3rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--text-color);
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+.contact-submit-button {
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--accent-bright);
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  align-self: flex-start;
 }
 
 @media (max-width: 1380px) {

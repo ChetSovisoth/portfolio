@@ -4,16 +4,14 @@ import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import BlogsImg from "./BlogsImg";
 import AddressImg from "./AddressImg";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
 
+const formId = process.env.REACT_APP_FORMSPREE_ID;
 const ContactData = contactPageData.contactSection;
-const blogSection = contactPageData.blogSection;
 const addressSection = contactPageData.addressSection;
-const phoneSection = contactPageData.phoneSection;
 
 class Contact extends Component {
   render() {
@@ -100,7 +98,111 @@ class Contact extends Component {
                 >
                   {addressSection["subtitle"]}
                 </p>
-                <h1
+
+                <form
+                  onSubmit={async (e) => {
+                    e.preventDefault(); // prevent redirect
+                    const form = e.target;
+                    const data = new FormData(form);
+
+                    const res = await fetch(
+                      `https://formspree.io/f/${formId}`,
+                      {
+                        method: "POST",
+                        body: data,
+                        headers: { Accept: "application/json" },
+                      }
+                    );
+
+                    if (res.ok) {
+                      alert("Thanks for your message!");
+                      form.reset();
+                    } else {
+                      alert("There was a problem submitting the form.");
+                    }
+                  }}
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: "1.5rem",
+                    marginTop: "2rem",
+                  }}
+                >
+                  {/* Row: Name + Email */}
+                  <div
+                    style={{
+                      display: "flex",
+                      gap: "1rem",
+                      flexWrap: "wrap",
+                    }}
+                  >
+                    <input
+                      type="text"
+                      name="name"
+                      placeholder="Your Name"
+                      required
+                      style={{
+                        flex: "1",
+                        padding: "0.6rem 1rem",
+                        borderRadius: "8px",
+                        border: `1px solid ${theme.text}`,
+                        backgroundColor: theme.body,
+                        color: theme.text,
+                        minWidth: "180px",
+                      }}
+                    />
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="Your Email"
+                      required
+                      style={{
+                        flex: "1",
+                        padding: "0.6rem 1rem",
+                        borderRadius: "8px",
+                        border: `1px solid ${theme.text}`,
+                        backgroundColor: theme.body,
+                        color: theme.text,
+                        minWidth: "180px",
+                      }}
+                    />
+                  </div>
+
+                  {/* Message Field */}
+                  <textarea
+                    name="message"
+                    placeholder="Your Message"
+                    rows="5"
+                    required
+                    style={{
+                      padding: "0.8rem 1rem",
+                      borderRadius: "8px",
+                      border: `1px solid ${theme.text}`,
+                      backgroundColor: theme.body,
+                      color: theme.text,
+                      resize: "none",
+                    }}
+                  />
+
+                  {/* Submit Button */}
+                  <button
+                    type="submit"
+                    style={{
+                      padding: "0.75rem 1.5rem",
+                      borderRadius: "8px",
+                      border: "none",
+                      backgroundColor: theme.text,
+                      color: "#fff",
+                      fontWeight: "bold",
+                      cursor: "pointer",
+                      width: "fit-content",
+                    }}
+                  >
+                    Send Message
+                  </button>
+                </form>
+
+                {/* <h1
                   className="address-heading-text"
                   style={{ color: theme.text }}
                 >
@@ -111,7 +213,7 @@ class Contact extends Component {
                   style={{ color: theme.secondaryText }}
                 >
                   {phoneSection["subtitle"]}
-                </p>
+                </p> */}
               </div>
               <div className="contact-heading-img-div">
                 {/* <img
