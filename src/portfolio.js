@@ -260,12 +260,30 @@ const certifications = {
       color_code: "#FFFFFF",
     },
     {
-      title: "Online Kubernetes Lab for Beginners - Hands on",
+      title: "Online Kubernetes Lab for Beginners",
       subtitle: "- KodeKloud",
       logo_path: "kodekloud.png",
       certificate_link:
         "https://learn.kodekloud.com/certificate/fab8a367-eb56-4920-a744-bdf18cfca79e",
-      alt_name: "kodekloud",
+      alt_name: "kodekloud - k8s",
+      color_code: "#FFFFFF",
+    },
+    {
+      title: "Kubernetes Certified Application Developer (CKAD) with Tests",
+      subtitle: "- Udemy",
+      logo_path: "udemy.png",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-c14dc621-d8a5-4b55-8b92-b3ab21caf539/",
+      alt_name: "CKAD",
+      color_code: "#FFFFFF",
+    },
+    {
+      title: "Online Certified Kubernetes Application Developer Lab",
+      subtitle: "- KodeKloud",
+      logo_path: "kodekloud.png",
+      certificate_link:
+        "https://learn.kodekloud.com/user/certificate/d3c080bb-7477-4bf3-b6e2-bdb68c7da525",
+      alt_name: "kodekloud - ckad",
       color_code: "#FFFFFF",
     },
   ],
@@ -520,6 +538,198 @@ const projects = {
     },
   ],
 };
+const projectDetails = {
+  "saas-attendance-tracking": {
+    introduction:
+      "This web-based attendance tracking system was developed to help organizations monitor and manage employee attendance efficiently. It supports real-time clock-in/clock-out, separate user roles (admin and employee), and provides a clean and intuitive interface for both day-to-day usage and data review. Designed initially as a standalone project, the system laid the foundation for a future SaaS implementation.",
+    scope: {
+      description:
+        "The system is built for internal use within a single organization Its core features include:",
+      features: [
+        "Clock in/out with timestamps",
+        "Attendance history for each employee",
+        "Admin panel for user and record management",
+        "Export attendance reports (PDF/Excel)",
+        "Set office hours and lateness thresholds",
+      ],
+    },
+    methodology: {
+      description:
+        "The system was developed using modern full-stack tools and follows the MVC architecture.",
+      tools: [
+        "Laravel (backend)",
+        "Vue.js with Inertia.js (frontend)",
+        "Laravel Jetstream (authentication)",
+        "MySQL (database)",
+        "Git & GitHub (version control)",
+      ],
+    },
+    result: {
+      description:
+        "The system was completed in July 2025 and deployed in a testing environment. It provides:",
+      outcomes: [
+        "Real-time attendance tracking",
+        "Secure, role-based access control",
+        "Downloadable reports for admins",
+        "Improved efficiency in attendance management",
+        "A solid base for future SaaS development",
+      ],
+      url: "",
+    },
+  },
+  "attendance-tracking-system-qr": {
+    introduction:
+      "This web-based attendance tracking system was developed to help organizations monitor and manage employee attendance efficiently. It supports real-time clock-in/clock-out, separate user roles (admin and employee), and provides a clean and intuitive interface for both day-to-day usage and data review. Designed initially as a standalone project, the system laid the foundation for a future SaaS implementation.",
+    scope: {
+      description:
+        "The system is built for internal use within a single organization Its core features include:",
+      features: [
+        "Clock in/out with timestamps",
+        "Attendance history for each employee",
+        "Admin panel for user and record management",
+        "Export attendance reports (PDF/Excel)",
+        "Set office hours and lateness thresholds",
+      ],
+    },
+    methodology: {
+      description:
+        "The system was developed using modern full-stack tools and follows the MVC architecture.",
+      tools: [
+        "Laravel (backend)",
+        "Vue.js with Inertia.js (frontend)",
+        "Laravel Jetstream (authentication)",
+        "MySQL (database)",
+        "Git & GitHub (version control)",
+      ],
+    },
+    result: {
+      description:
+        "The system was completed in July 2025 and deployed in a testing environment. It provides:",
+      outcomes: [
+        "Real-time attendance tracking",
+        "Secure, role-based access control",
+        "Downloadable reports for admins",
+        "Improved efficiency in attendance management",
+        "A solid base for future SaaS development",
+      ],
+      url: "",
+    },
+  },
+  mentorship: {
+    introduction:
+      "This web-based attendance tracking system was developed to help organizations monitor and manage employee attendance efficiently. It supports real-time clock-in/clock-out, separate user roles (admin and employee), and provides a clean and intuitive interface for both day-to-day usage and data review. Designed initially as a standalone project, the system laid the foundation for a future SaaS implementation.",
+    scope: {
+      description:
+        "The system is built for internal use within a single organization Its core features include:",
+      features: [
+        "Clock in/out with timestamps",
+        "Attendance history for each employee",
+        "Admin panel for user and record management",
+        "Export attendance reports (PDF/Excel)",
+        "Set office hours and lateness thresholds",
+      ],
+    },
+    methodology: {
+      description:
+        "The system was developed using modern full-stack tools and follows the MVC architecture.",
+      tools: [
+        "Laravel (backend)",
+        "Vue.js with Inertia.js (frontend)",
+        "Laravel Jetstream (authentication)",
+        "MySQL (database)",
+        "Git & GitHub (version control)",
+      ],
+    },
+    result: {
+      description:
+        "The system was completed in July 2025 and deployed in a testing environment. It provides:",
+      outcomes: [
+        "Real-time attendance tracking",
+        "Secure, role-based access control",
+        "Downloadable reports for admins",
+        "Improved efficiency in attendance management",
+        "A solid base for future SaaS development",
+      ],
+      url: "",
+    },
+  },
+  komsanhub: {
+    introduction:
+      "This web-based attendance tracking system was developed to help organizations monitor and manage employee attendance efficiently. It supports real-time clock-in/clock-out, separate user roles (admin and employee), and provides a clean and intuitive interface for both day-to-day usage and data review. Designed initially as a standalone project, the system laid the foundation for a future SaaS implementation.",
+    scope: {
+      description:
+        "The system is built for internal use within a single organization Its core features include:",
+      features: [
+        "Clock in/out with timestamps",
+        "Attendance history for each employee",
+        "Admin panel for user and record management",
+        "Export attendance reports (PDF/Excel)",
+        "Set office hours and lateness thresholds",
+      ],
+    },
+    methodology: {
+      description:
+        "The system was developed using modern full-stack tools and follows the MVC architecture.",
+      tools: [
+        "Laravel (backend)",
+        "Vue.js with Inertia.js (frontend)",
+        "Laravel Jetstream (authentication)",
+        "MySQL (database)",
+        "Git & GitHub (version control)",
+      ],
+    },
+    result: {
+      description:
+        "The system was completed in July 2025 and deployed in a testing environment. It provides:",
+      outcomes: [
+        "Real-time attendance tracking",
+        "Secure, role-based access control",
+        "Downloadable reports for admins",
+        "Improved efficiency in attendance management",
+        "A solid base for future SaaS development",
+      ],
+      url: "https://komsanhub.sovisoth.com",
+    },
+  },
+  scratch: {
+    introduction:
+      "This web-based attendance tracking system was developed to help organizations monitor and manage employee attendance efficiently. It supports real-time clock-in/clock-out, separate user roles (admin and employee), and provides a clean and intuitive interface for both day-to-day usage and data review. Designed initially as a standalone project, the system laid the foundation for a future SaaS implementation.",
+    scope: {
+      description:
+        "The system is built for internal use within a single organization Its core features include:",
+      features: [
+        "Clock in/out with timestamps",
+        "Attendance history for each employee",
+        "Admin panel for user and record management",
+        "Export attendance reports (PDF/Excel)",
+        "Set office hours and lateness thresholds",
+      ],
+    },
+    methodology: {
+      description:
+        "The system was developed using modern full-stack tools and follows the MVC architecture.",
+      tools: [
+        "Laravel (backend)",
+        "Vue.js with Inertia.js (frontend)",
+        "Laravel Jetstream (authentication)",
+        "MySQL (database)",
+        "Git & GitHub (version control)",
+      ],
+    },
+    result: {
+      description:
+        "The system was completed in July 2025 and deployed in a testing environment. It provides:",
+      outcomes: [
+        "Real-time attendance tracking",
+        "Secure, role-based access control",
+        "Downloadable reports for admins",
+        "Improved efficiency in attendance management",
+        "A solid base for future SaaS development",
+      ],
+      url: "",
+    },
+  },
+};
 
 // Contact Page
 const contactPageData = {
@@ -568,4 +778,5 @@ export {
   publications,
   contactPageData,
   projects,
+  projectDetails,
 };
