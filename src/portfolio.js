@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A pragmatic builder who enjoys developing end-to-end solutions, with a focus on scalable backend systems and cloud infrastructure to solve real-world problems efficiently.",
   resumeLink:
-    "https://drive.google.com/file/d/1i5uGKprEGGjk6-R2mahS4wcQ1AWR9k6f/view?usp=sharing",
+    "https://drive.google.com/file/d/1QMlwuh0FFH1P34Yo3wWas9C_ia7MY2uf/view?usp=sharing",
   // portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
   githubProfile: "https://github.com/ChetSovisoth",
 };
@@ -284,6 +284,15 @@ const certifications = {
       certificate_link:
         "https://learn.kodekloud.com/user/certificate/d3c080bb-7477-4bf3-b6e2-bdb68c7da525",
       alt_name: "kodekloud - ckad",
+      color_code: "#FFFFFF",
+    },
+    {
+      title: "GitHub Actions - The Complete Guide (CI/CD)",
+      subtitle: "– Maximilian Schwarzm¨uller",
+      logo_path: "udemy.png",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-982f00d7-5100-42dd-b20a-919a895d9fa3/",
+      alt_name: "GHA",
       color_code: "#FFFFFF",
     },
   ],
