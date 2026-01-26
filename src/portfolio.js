@@ -288,7 +288,7 @@ const certifications = {
     },
     {
       title: "GitHub Actions - The Complete Guide (CI/CD)",
-      subtitle: "– Maximilian Schwarzm¨uller",
+      subtitle: "– Maximilian Schwarzmüller",
       logo_path: "udemy.png",
       certificate_link:
         "https://www.udemy.com/certificate/UC-982f00d7-5100-42dd-b20a-919a895d9fa3/",
