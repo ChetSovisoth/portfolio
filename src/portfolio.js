@@ -296,21 +296,21 @@ const certifications = {
       color_code: "#FFFFFF",
     },
     {
-      title: "Terraform for the Absolute Beginners with Labs",
-      subtitle: "- Udemy",
-      logo_path: "udemy.png",
-      certificate_link:
-        "https://www.udemy.com/certificate/UC-ea8f76ef-f49a-4665-8e63-aea214184e7f/",
-      alt_name: "Terraform for Beginner",
-      color_code: "#FFFFFF",
-    },
-    {
       title: "Udemy Labs - Terraform for Beginners",
       subtitle: "- KodeKloud",
       logo_path: "kodekloud.png",
       certificate_link:
         "https://learn.kodekloud.com/user/certificate/876f008c-a3fa-4094-8c4a-ebcd64535ae0",
       alt_name: "kodekloud - terraform",
+      color_code: "#FFFFFF",
+    },
+    {
+      title: "Terraform for the Absolute Beginners with Labs",
+      subtitle: "- Udemy",
+      logo_path: "udemy.png",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-ea8f76ef-f49a-4665-8e63-aea214184e7f/",
+      alt_name: "Terraform for Beginner",
       color_code: "#FFFFFF",
     },
   ],
