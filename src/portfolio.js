@@ -170,17 +170,19 @@ const skills = {
           style: {
             color: "#326CE5",
           },
-          {
-          skillName: "Terraform",
-          fontAwesomeClassname: "simple-icons:terraform",
-          style: {
-            color: "#326CE5",
-          },
-          {
+        },
+        {
           skillName: "Ansible",
           fontAwesomeClassname: "simple-icons:ansible",
           style: {
-            color: "#326CE5",
+            color: "#EE0000",
+          },
+        },
+        {
+          skillName: "Terraform",
+          fontAwesomeClassname: "simple-icons:terraform",
+          style: {
+            color: "#7B42BC",
           },
         },
       ],
