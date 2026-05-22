@@ -343,48 +343,15 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Machine Learning Engineer",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "June 2023 - Present",
-          location: "San Jose, CA, USA",
+          title: "IT Assistant",
+          company: "Facuty of Engineering",
+          company_url: "https://fe.rupp.edu.kh/",
+          logo_path: "fe.png",
+          duration: "Sep 2025 - Feb 2026",
+          location: "Royal University of Phnom Penh, Phnom Penh, Cambodia",
           description:
             "Improving ads ranking models on the core TikTok product. Experience working on modeling two-tower architectures like DeepFM, Wide & deep learning, etc. Working on Large Language Models (LLM) pretraining and Large Multi-modal Model (LMM) finetuning strategies.",
           color: "#000000",
-        },
-        {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
-          location: "Hyderabad, Telangana",
-          description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
-          color: "#0879bf",
-        },
-        {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
-          description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-          color: "#9b1578",
-        },
-        {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
-          description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
         },
       ],
     },
@@ -581,41 +548,21 @@ const projects = {
 };
 const projectDetails = {
   "saas-attendance-tracking": {
-    introduction:
-      "This web-based attendance tracking system was developed to help organizations monitor and manage employee attendance efficiently. It supports real-time clock-in/clock-out, separate user roles (admin and employee), and provides a clean and intuitive interface for both day-to-day usage and data review. Designed initially as a standalone project, the system laid the foundation for a future SaaS implementation.",
+    introduction: "Coming Soon",
     scope: {
-      description:
-        "The system is built for internal use within a single organization Its core features include:",
-      features: [
-        "Clock in/out with timestamps",
-        "Attendance history for each employee",
-        "Admin panel for user and record management",
-        "Export attendance reports (PDF/Excel)",
-        "Set office hours and lateness thresholds",
-      ],
+      description: "Coming Soon",
+      features: [],
     },
     methodology: {
-      description:
-        "The system was developed using modern full-stack tools and follows the MVC architecture.",
-      tools: [
-        "Laravel (backend)",
-        "Vue.js with Inertia.js (frontend)",
-        "Laravel Jetstream (authentication)",
-        "MySQL (database)",
-        "Git & GitHub (version control)",
-      ],
+      description: "Coming Soon",
+      tools: [],
     },
     result: {
-      description:
-        "The system was completed in July 2025 and deployed in a testing environment. It provides:",
-      outcomes: [
-        "Real-time attendance tracking",
-        "Secure, role-based access control",
-        "Downloadable reports for admins",
-        "Improved efficiency in attendance management",
-        "A solid base for future SaaS development",
-      ],
+      description: "Coming Soon",
+      outcomes: [],
       url: "",
+      iframe:
+        "https://player.vimeo.com/video/1194269660?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     },
   },
   "attendance-tracking-system-qr": {
@@ -636,9 +583,8 @@ const projectDetails = {
       description:
         "The system was developed using modern full-stack tools and follows the MVC architecture.",
       tools: [
-        "Laravel (backend)",
-        "Vue.js with Inertia.js (frontend)",
-        "Laravel Jetstream (authentication)",
+        "Laravel (fullstack)",
+        "Bootstrap (styling)",
         "MySQL (database)",
         "Git & GitHub (version control)",
       ],
@@ -653,121 +599,56 @@ const projectDetails = {
         "Improved efficiency in attendance management",
         "A solid base for future SaaS development",
       ],
-      url: "",
+      url: "https://github.com/ChetSovisoth/Y4S1-Project",
     },
   },
   mentorship: {
-    introduction:
-      "This web-based attendance tracking system was developed to help organizations monitor and manage employee attendance efficiently. It supports real-time clock-in/clock-out, separate user roles (admin and employee), and provides a clean and intuitive interface for both day-to-day usage and data review. Designed initially as a standalone project, the system laid the foundation for a future SaaS implementation.",
+    introduction: "Coming Soon",
     scope: {
-      description:
-        "The system is built for internal use within a single organization Its core features include:",
-      features: [
-        "Clock in/out with timestamps",
-        "Attendance history for each employee",
-        "Admin panel for user and record management",
-        "Export attendance reports (PDF/Excel)",
-        "Set office hours and lateness thresholds",
-      ],
+      description: "Coming Soon",
+      features: [],
     },
     methodology: {
-      description:
-        "The system was developed using modern full-stack tools and follows the MVC architecture.",
-      tools: [
-        "Laravel (backend)",
-        "Vue.js with Inertia.js (frontend)",
-        "Laravel Jetstream (authentication)",
-        "MySQL (database)",
-        "Git & GitHub (version control)",
-      ],
+      description: "Coming Soon",
+      tools: [],
     },
     result: {
-      description:
-        "The system was completed in July 2025 and deployed in a testing environment. It provides:",
-      outcomes: [
-        "Real-time attendance tracking",
-        "Secure, role-based access control",
-        "Downloadable reports for admins",
-        "Improved efficiency in attendance management",
-        "A solid base for future SaaS development",
-      ],
-      url: "",
+      description: "Coming Soon",
+      outcomes: [],
+      url: "https://mentorship.sovisoth.com/",
     },
   },
   komsanhub: {
-    introduction:
-      "This web-based attendance tracking system was developed to help organizations monitor and manage employee attendance efficiently. It supports real-time clock-in/clock-out, separate user roles (admin and employee), and provides a clean and intuitive interface for both day-to-day usage and data review. Designed initially as a standalone project, the system laid the foundation for a future SaaS implementation.",
+    introduction: "Coming Soon",
     scope: {
-      description:
-        "The system is built for internal use within a single organization Its core features include:",
-      features: [
-        "Clock in/out with timestamps",
-        "Attendance history for each employee",
-        "Admin panel for user and record management",
-        "Export attendance reports (PDF/Excel)",
-        "Set office hours and lateness thresholds",
-      ],
+      description: "Coming Soon",
+      features: [],
     },
     methodology: {
-      description:
-        "The system was developed using modern full-stack tools and follows the MVC architecture.",
-      tools: [
-        "Laravel (backend)",
-        "Vue.js with Inertia.js (frontend)",
-        "Laravel Jetstream (authentication)",
-        "MySQL (database)",
-        "Git & GitHub (version control)",
-      ],
+      description: "Coming Soon",
+      tools: [],
     },
     result: {
-      description:
-        "The system was completed in July 2025 and deployed in a testing environment. It provides:",
-      outcomes: [
-        "Real-time attendance tracking",
-        "Secure, role-based access control",
-        "Downloadable reports for admins",
-        "Improved efficiency in attendance management",
-        "A solid base for future SaaS development",
-      ],
+      description: "Coming Soon",
+      outcomes: [],
       url: "https://komsanhub.sovisoth.com",
     },
   },
   scratch: {
-    introduction:
-      "This web-based attendance tracking system was developed to help organizations monitor and manage employee attendance efficiently. It supports real-time clock-in/clock-out, separate user roles (admin and employee), and provides a clean and intuitive interface for both day-to-day usage and data review. Designed initially as a standalone project, the system laid the foundation for a future SaaS implementation.",
+    introduction: "Coming Soon",
     scope: {
-      description:
-        "The system is built for internal use within a single organization Its core features include:",
-      features: [
-        "Clock in/out with timestamps",
-        "Attendance history for each employee",
-        "Admin panel for user and record management",
-        "Export attendance reports (PDF/Excel)",
-        "Set office hours and lateness thresholds",
-      ],
+      description: "Coming Soon",
+      features: [],
     },
     methodology: {
-      description:
-        "The system was developed using modern full-stack tools and follows the MVC architecture.",
-      tools: [
-        "Laravel (backend)",
-        "Vue.js with Inertia.js (frontend)",
-        "Laravel Jetstream (authentication)",
-        "MySQL (database)",
-        "Git & GitHub (version control)",
-      ],
+      description: "Coming Soon",
+      tools: [],
     },
     result: {
-      description:
-        "The system was completed in July 2025 and deployed in a testing environment. It provides:",
-      outcomes: [
-        "Real-time attendance tracking",
-        "Secure, role-based access control",
-        "Downloadable reports for admins",
-        "Improved efficiency in attendance management",
-        "A solid base for future SaaS development",
-      ],
+      description: "Coming Soon",
+      outcomes: [],
       url: "",
+      iframe: "https://scratch.mit.edu/projects/1195915325/embed",
     },
   },
 };

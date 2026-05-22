@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
-import PublicationCard from "../../components/publicationsCard/PublicationCard";
+import ProjectCard from "../../components/projectsCard/ProjectCard";
+// import ProjectCard from "../../components/projectlicationsCard/projectlicationCard";
 import Button from "../../components/button/Button";
 import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
@@ -51,36 +52,40 @@ class Projects extends Component {
         </div>
 
         <div className="repo-cards-div-main">
-          {projects.data.map((pub) => {
-            return <PublicationCard pub={pub} theme={theme} key={pub.id} />;
+          {projects.data.map((project) => {
+            return (
+              <ProjectCard project={project} theme={theme} key={project.id} />
+            );
           })}
         </div>
 
-        <Button
-          text={"More Projects"}
-          className="project-button"
-          href={greeting.githubProfile}
-          newTab={true}
-          theme={theme}
-        />
+        <div style={{ paddingBottom: "25px" }}>
+          <Button
+            text={"More Projects"}
+            className="project-button"
+            href={greeting.githubProfile}
+            newTab={true}
+            theme={theme}
+          />
+        </div>
 
-        {/* Publications  */}
-        {/* {publications.data.length > 0 ? (
+        {/* projectlications  */}
+        {/* {projectlications.data.length > 0 ? (
           <div className="basic-projects">
             <Fade bottom duration={2000} distance="40px">
-              <div className="publications-heading-div">
-                <div className="publications-heading-text-div">
+              <div className="projectlications-heading-div">
+                <div className="projectlications-heading-text-div">
                   <h1
-                    className="publications-heading-text"
+                    className="projectlications-heading-text"
                     style={{ color: theme.text }}
                   >
-                    {publicationsHeader.title}
+                    {projectlicationsHeader.title}
                   </h1>
                   <p
                     className="projects-header-detail-text subTitle"
                     style={{ color: theme.secondaryText }}
                   >
-                    {publicationsHeader["description"]}
+                    {projectlicationsHeader["description"]}
                   </p>
                 </div>
               </div>
@@ -89,12 +94,12 @@ class Projects extends Component {
         ) : null}
 
         <div className="repo-cards-div-main">
-          {publications.data.map((pub) => {
-            return <PublicationCard pub={pub} theme={theme} />;
+          {projectlications.data.map((project) => {
+            return <projectlicationCard project={project} theme={theme} />;
           })}
         </div> */}
 
-        <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
+        {/* <Footer theme={this.props.theme} onToggle={this.props.onToggle} /> */}
         <TopButton theme={this.props.theme} />
       </div>
     );
