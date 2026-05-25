@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
+// import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
-import ExperienceAccordion from "../../containers/experienceAccordion/ExperienceAccordion.js";
+// import ExperienceAccordion from "../../containers/experienceAccordion/ExperienceAccordion.js";
 import "./Experience.css";
 import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";

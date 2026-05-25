@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
+// import Footer from "../../components/footer/Footer";
 import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import ProjectCard from "../../components/projectsCard/ProjectCard";
 // import ProjectCard from "../../components/projectlicationsCard/projectlicationCard";
