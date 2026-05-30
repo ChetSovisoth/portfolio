@@ -548,17 +548,35 @@ const projects = {
 };
 const projectDetails = {
   "saas-attendance-tracking": {
-    introduction: "Coming Soon",
+    introduction:
+      "Attendance tracking is a vital part of daily operations in schools, businesses, and institutions. Traditional systems are often manual or tied to fixed infrastructure, and is prone to errors.\n\nWith the rise of cloud computing, SaaS allows organizations to access software without managing servers. However, delivering a truly scalable and automated SaaS platform, especially one that serves many organizations is still a technical challenge.",
     scope: {
-      description: "Coming Soon",
-      features: [],
+      description:
+        "To develop SaaS attendance tracking platform using Kubernetes that is scalable and reliable capable of handling multiple organization deployments with no manual human intervention.",
+      features: [
+        "To deploy independent attendance tracking systems for each organization using Kubernetes.",
+        "To implement auto-scaling to handle high traffic periods.",
+        "To automate the deployment process, with no manual setup and ensuring consistent environments.",
+        "To ensure minimal downtime through Kubernetes orchestration and resource management.",
+      ],
     },
     methodology: {
-      description: "Coming Soon",
-      tools: [],
+      description:
+        "Developed using modern full-stack tools and follows the MVC architecture. The system is designed to be modular, allowing for easy maintenance and future feature additions.",
+      tools: [
+        "Laravel 12",
+        "InertiaJS",
+        "VueJS 3",
+        "MySQL",
+        "Paddle (Payment Gateway)",
+        "Kubernetes",
+        "Docker",
+        "Git & GitHub",
+      ],
     },
     result: {
-      description: "Coming Soon",
+      description:
+        "This project successfully delivers a scalable, cloud-based attendance tracking solution through a centralized platform. By integrating modern technologies like Laravel, Vue.js, Paddle, and Kubernetes, the system ensures reliability, flexibility, and ease of use for organizations. ",
       outcomes: [],
       url: "",
       iframe:
@@ -603,7 +621,8 @@ const projectDetails = {
     },
   },
   mentorship: {
-    introduction: "Coming Soon",
+    introduction:
+      "This project intended for student to be connect with mentor in the related field for student to learn from the mentor and the mentor to share experience and knowledge to their mentee, by using our website students can also have a chance to get to know people in their industry, providing them with valuable network. We plan to build a website dedicated solely to students who are struggling, completely free of charge. ",
     scope: {
       description: "Coming Soon",
       features: [],

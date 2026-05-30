@@ -67,7 +67,9 @@ class ProjectDetail extends Component {
             <div className="project-detail-block">
               <h1 className="project-detail-heading">Introduction</h1>
               <p className="project-detail-body">
-                {projectDetail.introduction}
+                {projectDetail.introduction.split("\n").map((line, index) => (
+                  <p key={index}>{line}</p>
+                ))}
               </p>
             </div>
             <div className="project-detail-block">
