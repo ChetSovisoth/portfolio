@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A pragmatic builder who enjoys developing end-to-end solutions, with a focus on scalable backend systems and cloud infrastructure to solve real-world problems efficiently.",
   resumeLink:
-    "https://drive.google.com/file/d/1QMlwuh0FFH1P34Yo3wWas9C_ia7MY2uf/view?usp=sharing",
+    "https://drive.google.com/file/d/1orGUcO4M-pjbfRbq_SPDGoV7EJy22jXG/view?usp=sharing",
   // portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
   githubProfile: "https://github.com/ChetSovisoth",
 };
